@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHILL - Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--favicon-->
+    <link rel="icon" href="Logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="login-container">
+        <img src="Logo.png" alt="Logo" class="logo" />
+        <h1 class="welcome">Daftar</h1>
+        <p class="subtitle">Selamat datang!</p>
+        <form>
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Masukkan username" />
+
+          <label for="password">Kata Sandi</label>
+          <div class="password-container">
+            <input
+              type="password"
+              id="password"
+              placeholder="Masukkan kata sandi"
+            />
+            <span class="toggle-password"><img src="Vector.png" alt="" /></span>
+          </div>
+
+          <label for="password">Konfirmasi Kata Sandi</label>
+          <div class="password-container">
+            <input
+              type="password"
+              id="password"
+              placeholder="Masukkan kata sandi"
+            />
+            <span class="toggle-password"><img src="Vector.png" alt="" /></span>
+          </div>
+
+          <div class="options">
+            <span>Sudah punya akun? <a href="masuk.html">Masuk</a></span>
+          </div>
+
+          <button type="submit" class="login-btn">Daftar</button>
+          <div class="divider">Atau</div>
+          <button type="button" class="google-btn">
+            <img src="google.png" alt="Google Icon" /> Daftar dengan Google
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

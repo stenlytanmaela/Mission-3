@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+  }
+  
+  a {
+    color: rgb(246, 246, 247);
+    size: 18px;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    margin-right: 2rem;
+    width: 30px;
+    border: 1px;
+    cursor: pointer;
+    list-style: none;
+    background: transparent;
+  }
+  
+  .img-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 30px;
+  }
+  
+  .container-content {
+    background-image: url("Frame\ 2.png");
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: #fff;
+  }
+  
+  .hero {
+    padding: 3rem 2rem;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 90px;
+    margin-bottom: 1rem;
+    padding: 20px;
+    height: 200px;
+    width: 800px;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .button-group button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #2866ff;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  .button-group a {
+    border: solid 1px rgb(66, 66, 66);
+    border-radius: 100px;
+    background-color: rgb(66, 66, 66);
+  }
+  
+  .button-group a1 {
+    border: solid 1px white;
+    background-color: transparent;
+    font-size: 23px;
+    border-radius: 200px;
+    cursor: pointer;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    padding: 20px;
+    height: 40px;
+    width: 600px;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+  
+  .card {
+    min-width: 160px;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .card-title {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  
+  .container {
+      background-color: #1e1e1e;
+      padding: 30px;
+      display: flex;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-brand {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .logo-icon {
+    font-size: 28px;
+    margin-right: 8px;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 2;
+    column-gap: 20px;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #ccc;
+  }
+
+/*Mobile */
+@media (max-width: 768px) {
+    .nav-menu {
+      display: none;
+    }
+
+/*Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-text h1 {
+      font-size: 1.75rem;
+    }
