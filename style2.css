@@ -1,13 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
   
   body {
     margin: 0;
-    background-color: #121212;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #1e1e1e ;
+    font-family: "lato", sans-serif;
     color: #fff;
+
   }
   
   header {
@@ -34,26 +34,38 @@
   
   a {
     color: rgb(246, 246, 247);
-    size: 18px;
+    font-size: 18px;
     margin: 0 1rem;
     padding: 0.5rem 1rem;
     margin-right: 2rem;
+    font-weight: 500;
+    line-height: 140%;
     width: 30px;
     border: 1px;
     cursor: pointer;
     list-style: none;
     background: transparent;
+    font-family: "lato" sans-serif;
   }
   
   .img-content {
     display: flex;
     justify-content: center;
+    position: absolute;
     align-items: center;
     margin-top: 1rem;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 30px;
     border: 30px;
+    margin-left: -450px;
+    margin-top: -20px;
+  }
+
+  .img-content1 {
+    position: absolute;
+    margin-left: -25rem;
+    margin-top: -0.3rem;
   }
   
   .container-content {
@@ -62,8 +74,9 @@
     background-size: cover;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    display: flex;
     box-shadow: #fff;
+    opacity: 0.4;
   }
   
   .hero {
@@ -72,14 +85,18 @@
   }
   
   h1 {
-    font-size: 90px;
-    margin-bottom: 1rem;
-    padding: 20px;
-    height: 200px;
-    width: 800px;
-    text-align: left;
-    display: table-cell;
-    vertical-align: middle;
+    font-size: 48px;
+    height: 53px;
+    width: 410px;
+    font-family: "lato" sans-serif;
+    font-weight: 700;
+    line-height: 110%;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 50px;
+    display: flex;
+    padding: 30px;
+    display: flex;
   }
   
   .button-group button {
@@ -88,33 +105,78 @@
     background-color: #2866ff;
     border: none;
     color: white;
-    border-radius: 100px;
+    border-radius: 48px;
     cursor: pointer;
-  }
+    width: 93px;
+    height: 45px;
+    font-family: "lato" sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
   
+.button-group p {
+    position: absolute;
+    margin-top: -120px;
+  }
+
   .button-group a {
     border: solid 1px rgb(66, 66, 66);
-    border-radius: 100px;
-    background-color: rgb(66, 66, 66);
-  }
+    border-radius: 48px;
+    background-color: #22282a;
+    border: none;
+    width: 185px;
+    height: 45px;
+    gap: 8px;
+    padding-top: 10px;
+    padding-right: 26px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+}
   
   .button-group a1 {
     border: solid 1px white;
     background-color: transparent;
     font-size: 23px;
-    border-radius: 200px;
+    border-radius: 24px;
     cursor: pointer;
-  }
+    width: 52px;
+    height: 45px;
+    padding: 10px;
+    gap: 10px;
+}
   
+.img-volume{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1200px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #fff;
+    padding: 10px;
+    
+    border-radius: 24px;
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    -ms-border-radius: 24;
+    -o-border-radius: 24;
+}
   section {
     padding: 2rem;
   }
   
   p {
-    margin-bottom: 1rem;
-    padding: 20px;
-    height: 40px;
-    width: 600px;
+    font-family: "lato" sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    width: 668px;
+    height: 75px;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 80px;
   }
   
   h2 {
@@ -185,7 +247,19 @@
   
   .logo-icon {
     font-size: 28px;
-    margin-right: 8px;
+    margin-right: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .footer-brand p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+    position: absolute;
+    margin-top: 100px;
   }
   
   .footer-section {
@@ -212,14 +286,3 @@
     color: #ccc;
   }
 
-/*Mobile */
-@media (max-width: 768px) {
-    .nav-menu {
-      display: none;
-    }
-
-/*Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .hero-text h1 {
-      font-size: 1.75rem;
-    }
